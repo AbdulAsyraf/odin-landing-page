@@ -49,12 +49,37 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding-left: 100px;
-    padding-right: 100px;
+    
 }
 
-.section .first {
+.content > .first {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+    padding: 100px;
+}
+
+.first-right > img {
+    max-height: 400px;
+    width: auto;
+}
+
+.first-left > h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.first-left > p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.first-left > button {
+    font-size: 18px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    padding: 8px 24px;
+    border-radius: 12px;
 }
